@@ -29,9 +29,7 @@ from flask_caching.backends.filesystemcache import FileSystemCache
 
 logger = logging.getLogger()
 
-
-SECRET_KEY = os.environ.get("SUPERSET_SECRET_KEY")
-
+SECRET_KEY = "1TEhe3JudkwAs+gg9uGOpLlxTfQ8rUK+n/l6UNOiYZkpQtCV7hkjm6Ul"
 
 DATABASE_DIALECT = os.getenv("DATABASE_DIALECT")
 DATABASE_USER = os.getenv("DATABASE_USER")
