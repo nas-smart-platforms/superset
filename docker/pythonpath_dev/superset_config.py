@@ -136,3 +136,13 @@ try:
     )
 except ImportError:
     logger.info("Using default Docker config...")
+
+
+BABEL_DEFAULT_LOCALE = "de"
+# The allowed translation for your app
+LANGUAGES = {
+    "en": {"flag": "us", "name": "English"},
+    "es": {"flag": "es", "name": "Spanish"},
+    "fr": {"flag": "fr", "name": "French"},
+    "de": {"flag": "de", "name": "German"},
+}
